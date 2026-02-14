@@ -5,7 +5,7 @@ export interface GiphyRandomResponse {
 
 export interface Gif {
     type:                       string;
-    id:                         string;
+    id:                          string;
     url:                        string;
     slug:                       string;
     bitly_gif_url:              string;

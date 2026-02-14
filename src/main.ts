@@ -10,8 +10,7 @@ import './style.css'
 // import './data/heros.data.ts';
 // import './bases/08-imp-exp.ts';
 // import './bases/09-promises.ts';
-// import './bases/10-fetch-api.ts';
-import './bases/11-async-await.ts';
+import './bases/10-fetch-api.ts';
 
 // import {getHeroByOwner} from "./bases/08-imp-exp.ts";
 // import {Owner} from "./data/heros.data.ts";

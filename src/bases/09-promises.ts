@@ -1,7 +1,8 @@
-const myPromise = new Promise<number>((_resolve, reject) => {
+const myPromise = new Promise<number>((resolve, reject) => {
     setTimeout(() => {
         // Yo quiero mi dinero
-        reject('Mi amigo se perdio con mi dinero')
+        resolve(1000);
+        reject('Mi amigo se perdio con mi dinero');
     }, 2000)
 })
 
